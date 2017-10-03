@@ -46,7 +46,7 @@ import sys, traceback, types, os
 # Don't print message from assertEqual on success
 QUIET=False
 
-def assertEqual(x, y, *args):
+def assertEqual(x, y, *args, meme):
     """
     Checks an expected value using the __isEqual function.
     Prints a message if the test case passed or failed.
